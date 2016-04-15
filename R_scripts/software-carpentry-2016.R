@@ -118,3 +118,29 @@ letter <- "z"
 for(letter in c("a", "b", "c")){
   print(letter)
 }
+
+len <- 0
+vowels <- c("a", "e", "i", "o", "u")
+for (v in vowels) {
+  len <- len + 1
+}
+# Number of vowels
+len
+
+letter <- "z"
+for (letter in c("a", "b", "c")) {
+  print(letter)
+}
+
+letter <- "z"
+for (letter in c("a", "b", "c")) {
+  print(letter)
+}
+
+print_N <- function(number){
+  for (n in seq(number)) {
+    print(n)
+  }
+}
+
+print_N(3)
